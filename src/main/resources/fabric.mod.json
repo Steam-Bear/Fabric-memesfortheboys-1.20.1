@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "memesfortheboys",
+	"version": "${version}",
+	"name": "MemesfortheBoys",
+	"description": "Some memes for the boys!",
+	"authors": [
+		"Calvin Strothenke"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/memesfortheboys/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.stro.memesfortheboys.MemesfortheBoys"
+		],
+		"client": [
+			"net.stro.memesfortheboys.MemesfortheBoysClient"
+		],
+		"fabric-datagen": [
+			"net.stro.memesfortheboys.MemesfortheBoysDataGenerator"
+		]
+	},
+	"mixins": [
+		"memesfortheboys.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.6",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
