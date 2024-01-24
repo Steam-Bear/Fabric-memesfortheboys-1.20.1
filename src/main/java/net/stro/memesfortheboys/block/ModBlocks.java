@@ -9,15 +9,16 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.stro.memesfortheboys.MemesfortheBoys;
 
 public class ModBlocks
 {
     public static final Block BLOCK_OF_ROBB = registerBlock("block_of_robb",
-            new Block(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK).mapColor(MapColor.RAW_IRON_PINK)));
+            new Block(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK).mapColor(MapColor.RAW_IRON_PINK).requiresTool()));
     public static final Block ANCIENT_ROBB = registerBlock("ancient_robb",
-            new Block(FabricBlockSettings.copyOf(Blocks.ANCIENT_DEBRIS).mapColor(MapColor.RAW_IRON_PINK)));
+            new Block(FabricBlockSettings.copyOf(Blocks.ANCIENT_DEBRIS).mapColor(MapColor.RAW_IRON_PINK).requiresTool()));
 
     private static Block registerBlock(String name, Block block)
     {
