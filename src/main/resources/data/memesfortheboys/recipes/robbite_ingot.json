@@ -1,13 +1,34 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "building",
+  "category": "misc",
+  "group": "netherite_ingot",
   "ingredients": [
     {
-      "item": "memesfortheboys:block_of_robb"
+      "item": "memesfortheboys:robbite_scrap"
+    },
+    {
+      "item": "memesfortheboys:robbite_scrap"
+    },
+    {
+      "item": "memesfortheboys:robbite_scrap"
+    },
+    {
+      "item": "memesfortheboys:robbite_scrap"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
     }
   ],
   "result": {
-    "count": 9,
     "item": "memesfortheboys:robbite_ingot"
   }
 }
