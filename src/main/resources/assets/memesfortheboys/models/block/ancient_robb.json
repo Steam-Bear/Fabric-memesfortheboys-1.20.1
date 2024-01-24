@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "memesfortheboys:block/ancient_robb_top",
+    "side": "memesfortheboys:block/ancient_robb_side"
+  }
+}
